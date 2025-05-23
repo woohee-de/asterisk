@@ -49,25 +49,6 @@ body {
     color: var(--bk);
 }
 
-// h1,h2 {
-//     font-weight: 500;
-//     font-size:var(--font-xl);
-//     line-height: var(--lh-xl);
-// }
-
-// h3, p, span, dt, dd {
-//     font-weight: 600;
-//     font-size: var(--font-md);
-//     line-height: var(--lh-md);
-// }
-
-// button {
-//     font-family: 'my-font', sans-serif;
-//     font-weight: 600;
-//     font-size: var(--font-md);
-//     line-height: var(--lh-md);
-//     text-decoration: underline;
-// }
 
 /*tablet*/
 @media screen and (max-width: 1179px) { 
@@ -90,3 +71,15 @@ body {
 	overflow: hidden;
 }
 
+.icon {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+
+	&--close {
+		background-image: url(/images/icon-arrow-diagonal.svg);
+	}
+}
