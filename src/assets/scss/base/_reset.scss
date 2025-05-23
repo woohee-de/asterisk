@@ -1,0 +1,13 @@
+* {margin:0px; padding:0px; box-sizing: border-box;}
+ul,ol,li {list-style:none;}
+a {text-decoration:none; outline:1; color:#111;}
+img, fieldset {border:0;}
+table, th, td {border-collapse: collapse;}
+input, select, textarea, form, label {vertical-align:middle; box-sizing:border-box;}
+textarea {resize:none;}
+button {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+	cursor: pointer;
+}
