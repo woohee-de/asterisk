@@ -4,5 +4,11 @@
 @import './base/_font';
 @import './base/_variables';
 
-@import '_header';
-@import '_main';
+@import './layout/_layout';
+@import './layout/_header';
+@import './layout/_main';
+@import './layout/_footer';
+
+@import './pages/_work';
+@import './pages/_contact';
+@import './pages/_detail';

@@ -4,7 +4,17 @@ const projects = [
     title: 'Matthiola',
     thum: '/images/pj-matthi.jpg',
     year: '2020',
-    description: 'React로 만든 개인 포트폴리오',
+    period:'2020',
+    description: `플라워 디자인 샵 마띠올라의 CI 리뉴얼. 
+    기존 로고와 어울리면서 단독으로도 사용할 수 있는 심볼마크를 디자인했다.`,
+    client: 'Matthiola Flower Shop',
+    category:'Logo design',
+    images: [
+      '/images/pj-matthi.jpg',
+      '/images/pj-matthi-1.jpg',
+      '/images/pj-matthi-2.jpg',
+      '/images/pj-matthi-3.jpg',
+    ],
   },
   {
     id: 'jl',

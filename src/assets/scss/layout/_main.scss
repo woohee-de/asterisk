@@ -1,0 +1,22 @@
+.main {
+  padding-inline: var(--gap);
+
+  &__layout {
+    display: flex;
+    gap: var(--gap);
+    padding-top: 130px;
+  }
+}
+
+.main-sidebar {
+  width: 500px;
+
+  &__title {
+    font-size: var(--font-xl);
+    font-weight: var(--medium);
+  }
+}
+
+.main-container {
+  flex: 1;
+}

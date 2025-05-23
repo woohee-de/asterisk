@@ -1,0 +1,30 @@
+.catchphrase {
+  font-size: 50px;
+  line-height: 1;
+}
+
+.work {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px 10px;
+  }
+}
+
+.project {
+  &__thum {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: var(--bk);
+  }
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__name {
+    font-size: var(--font-md);
+    font-weight: var(--medium);
+  }
+}

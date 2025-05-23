@@ -1,6 +1,6 @@
-import AppLayout from './components/AppLayout';
+import MainLayout from './components/layout/MainLayout';
 
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
 import Detail from './pages/Detail';
@@ -8,11 +8,11 @@ import Detail from './pages/Detail';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<AppLayout />}>
-        <Route index element={<Navigate to="/work" />} />
+      <Route path="/" element={<MainLayout />}>
+        <Route index element={<Work />} />
         <Route path="work" element={<Work />} />
+        <Route path="detail/:id" element={<Detail />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="detail" element={<Detail />} />
       </Route>
     </Routes>
   );

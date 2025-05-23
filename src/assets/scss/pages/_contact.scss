@@ -1,0 +1,27 @@
+.contact {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 600px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: var(--regular);
+
+    &__item {
+        flex:1;
+    }
+
+    &__dt {
+        margin-bottom: 20px;
+    }
+
+    &__dd {
+        &--divide {
+            margin-top: 20px;
+        }
+    }
+
+    &__mail {
+        text-decoration: underline;
+    }
+}
+
