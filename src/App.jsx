@@ -1,9 +1,9 @@
-import MainLayout from './components/layout/MainLayout';
+import MainLayout from '@/components/layout/MainLayout';
 
 import { Routes, Route } from 'react-router-dom';
-import Work from './pages/Work';
-import Contact from './pages/Contact';
-import Detail from './pages/Detail';
+import Work from '@/pages/Work';
+import Contact from '@/pages/Contact';
+import Detail from '@/pages/Detail';
 
 function App() {
   return (

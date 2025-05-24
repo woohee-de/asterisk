@@ -1,5 +1,5 @@
-import MainContainer from '../components/layout/MainContainer';
-import MainSidebar from '../components/layout/MainSidebar';
+import MainContainer from '@/components/layout/MainContainer';
+import MainSidebar from '@/components/layout/MainSidebar';
 
 function Contact() {
   return (

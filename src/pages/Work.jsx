@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import MainContainer from '../components/layout/MainContainer';
-import MainSidebar from '../components/layout/MainSidebar';
+import MainContainer from '@/components/layout/MainContainer';
+import MainSidebar from '@/components/layout/MainSidebar';
 
-import projects from '../data/projects';
+import projects from '@/data/projects';
 
 function Work() {
   return (
