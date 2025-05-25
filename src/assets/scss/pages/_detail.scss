@@ -63,7 +63,11 @@
 
 /*tablet*/
 @media screen and (max-width: $tablet) { 
-
+  .detail {
+    &__img-wrap {
+      margin-bottom: 8px;
+    }
+  }
 } 
 
 /*mobile*/
@@ -71,7 +75,13 @@
   .detail-info {
     &__desc {
       max-width: 100%;
+      margin-top: 24px;
     }
   }
 
+  .detail {
+    &__img-wrap {
+      margin-bottom: 4px;
+    }
+  }
 }

@@ -17,6 +17,7 @@
     height: 100%;
 
   }
+
   &__thum {
     width: 100%;
     aspect-ratio: 16 / 9;
@@ -35,15 +36,19 @@
 }
 
 /*tablet*/
-@media screen and (max-width: $tablet) { 
-	.work {
-    &__list{
+@media screen and (max-width: $tablet) {
+  .work {
+    &__list {
       grid-template-columns: repeat(1, 1fr);
     }
-    
-  }
-} 
-/*mobile*/
-@media screen and (max-width: $mobile) { 
 
+  }
+}
+
+/*mobile*/
+@media screen and (max-width: $mobile) {
+  .slogun {
+    font-size: 38px;
+    max-width: 80vw;
+  }
 }

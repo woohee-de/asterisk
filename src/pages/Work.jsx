@@ -17,7 +17,7 @@ function Work() {
 
       <div className="main__layout">
         <MainSidebar>
-          <h2 className="main-sidebar__title">
+          <h2 className="main-sidebar__title main-sidebar__title--mo-hidden">
             WORK
           </h2>
         </MainSidebar>

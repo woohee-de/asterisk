@@ -53,18 +53,6 @@ body {
 }
 
 
-/*tablet*/
-@media screen and (max-width: $tablet) { 
-} 
-/*mobile*/
-@media screen and (max-width: $mobile) { 
-    // h1,h2 {
-    //     font-weight: 500;
-    //     font-size:var(--font-lg);
-    //     line-height: var(--lh-lg)
-    // }
-}
-
 .hidden {
 	position: absolute;
 	clip: rect(0 0 0 0);

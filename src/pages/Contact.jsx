@@ -6,7 +6,7 @@ function Contact() {
     <>
       <div className="main__layout">
         <MainSidebar>
-          <h2 className="main-sidebar__title">
+          <h2 className="main-sidebar__title main-sidebar__title--mo-hidden">
             CONTACT
           </h2>
         </MainSidebar>

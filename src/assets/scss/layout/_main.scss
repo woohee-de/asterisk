@@ -27,3 +27,33 @@
 .main-container {
   grid-area: contents;
 }
+
+/*tablet*/
+@media screen and (max-width: $tablet) { 
+
+} 
+/*mobile*/
+@media screen and (max-width: $mobile) { 
+	.main {
+    padding-bottom: var(--gap);
+
+    &__layout {
+      display: block;
+      padding-top: 60px;
+    }
+  }
+
+  .main-sidebar {
+    top: auto;
+    margin-bottom: 48px;
+
+    &__title {
+      font-size: var(--font-lg);
+      margin-bottom: 24px;
+
+      &--mo-hidden {
+        display: none;
+      }
+    }
+  }
+}
