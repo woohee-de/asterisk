@@ -1,16 +1,11 @@
+import { useParams } from 'react-router-dom';
 import MainContainer from '@/components/layout/MainContainer';
 import MainSidebar from '@/components/layout/MainSidebar';
 
-import { useParams } from 'react-router-dom';
-import { useEffect } from 'react';
 import projects from '@/data/projects';
 
 
 function Detail() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   const { id } = useParams();
   const project = projects.find((p) => String(p.id) === id);
 

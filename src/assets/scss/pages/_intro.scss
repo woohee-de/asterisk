@@ -8,50 +8,50 @@
 	z-index: 12;
 	pointer-events: none;
 
-    &.out {
-        animation: fadeout 2s 1;
-        animation-fill-mode: forwards;
-    }
+	&.out {
+		animation: fadeout 2s 1;
+		animation-fill-mode: forwards;
+	}
 
-    &__bg {
-        background-color: var(--bk);
-        width: 100%;
-        height: 100vh;
-        position: relative;
-        top: 0;
-        left: 0;
+	&__bg {
+		background-color: var(--bk);
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		top: 0;
+		left: 0;
 
-        &.out {
-            animation: toSmallSquare 1.5s 1;
-            animation-fill-mode: forwards;
-        }
-    }
+		&.out {
+			animation: toSmallSquare 1.5s 1;
+			animation-fill-mode: forwards;
+		}
+	}
 
-    &__img {
-        width: 110px;
-        height: 110px;
-        background: url(/images/logo-only.svg) no-repeat center/100%;
-        filter: invert(100%);
-        opacity: 0;
-        position: absolute;
-        top: calc(50% - 65px);
-        left: calc(50% - 55px);
+	&__img {
+		width: 110px;
+		height: 110px;
+		background: url(/images/logo-only.svg) no-repeat center/100%;
+		filter: invert(100%);
+		opacity: 0;
+		position: absolute;
+		top: calc(50% - 65px);
+		left: calc(50% - 55px);
 
-        &.on {
-            animation: fadein 1.5s .5s;
-            animation-fill-mode: forwards;
-        }
+		&.on {
+			animation: fadein 1.5s .5s;
+			animation-fill-mode: forwards;
+		}
 
-        &.rotate {
-            opacity: 1;
-            animation: rotate 1.5s 1;
-        }
+		&.rotate {
+			opacity: 1;
+			animation: rotate 1.5s 1;
+		}
 
-        &.out {
-            animation: toSmallSquareImg 1.5s 1;
-            animation-fill-mode: forwards;
-        }
-    }
+		&.out {
+			animation: toSmallSquareImg 1.5s 1;
+			animation-fill-mode: forwards;
+		}
+	}
 }
 
 
@@ -59,16 +59,17 @@
 
 @keyframes rotate {
 	0% {
-		transform:rotate(0deg);
+		transform: rotate(0deg);
 	}
+
 	100% {
-		transform:rotate(360deg);
+		transform: rotate(360deg);
 	}
 }
 
 @keyframes toSmallSquare {
-	0% {
-	}
+	0% {}
+
 	50% {
 		width: 32px;
 		height: 32px;
@@ -77,18 +78,19 @@
 		margin-top: -16px;
 		margin-left: -16px;
 	}
+
 	100% {
 		width: 32px;
 		height: 32px;
 		position: absolute;
 		top: var(--gap);
-		left:var(--gap);
+		left: var(--gap);
 	}
 }
 
 @keyframes toSmallSquareImg {
-	0% {
-	}
+	0% {}
+
 	50% {
 		width: 32px;
 		height: 32px;
@@ -97,10 +99,23 @@
 		margin-top: -16px;
 		margin-left: -16px;
 	}
+
 	100% {
 		width: 32px;
 		height: 32px;
 		top: 0;
-		left:0;
+		left: 0;
 	}
+}
+
+.app {
+	transition: none;
+}
+
+.app.__freeze-scroll {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
 }

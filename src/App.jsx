@@ -12,6 +12,8 @@ import Contact from '@/pages/Contact';
 import Detail from '@/pages/Detail';
 import Intro from '@/pages/Intro';
 
+import { scrollAppToTop } from '@/components/common/ScrollToTop';
+
 function App() {
   const location = useLocation();
   const [showIntro, setShowIntro] = useState(false);
@@ -39,7 +41,9 @@ function App() {
       <CustomCursor />
       <DialogViewer />
 
-      <AnimatePresence mode="wait">
+      <AnimatePresence mode="wait" onExitComplete={() => {
+        scrollAppToTop(); // 페이지 전환 완료 후 scrollTop 실행
+      }}>
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<PageLoader><Work /></PageLoader>} />
