@@ -53,7 +53,7 @@ function DialogViewer() {
           <button className="dialog-viewer__close" aria-label="닫기" onClick={() => dialogRef.current.close()}>
             <i className="icon icon--close"></i>
           </button>
-          <img className="dialog-viewer__img" src={imgSrc} alt={imgAlt} />
+          <img className="dialog-viewer__img" src={imgSrc || null} alt={imgAlt} />
         </div>
       </div>
     </dialog>
