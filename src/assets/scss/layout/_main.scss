@@ -9,7 +9,7 @@
 }
 
 .main-sidebar {
-  width: 500px;
+  width: var(--sidewid);
 
   &__title {
     font-size: var(--font-xl);

@@ -1,6 +1,5 @@
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import DialogViewer from '@/components/common/DialogViewer';
 import { Outlet } from 'react-router-dom';
 
 function MainLayout() {
@@ -11,7 +10,6 @@ function MainLayout() {
         <Outlet />
       </main>
       <Footer />
-      <DialogViewer />
     </>
   );
 }
