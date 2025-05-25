@@ -12,7 +12,7 @@ function Contact() {
         </MainSidebar>
         <MainContainer>
           <div className="contact">
-            <div className="contact__item">
+            <div className="contact__item contact__item--skill">
               <dl className="contact__dl">
                 <dt className="contact__dt">SKILL</dt>
 
@@ -26,7 +26,7 @@ function Contact() {
                 <dd className="contact__dd">React</dd>
               </dl>
             </div>
-            <div className="contact__item">
+            <div className="contact__item contact__item--email">
               <dl className="cantact__dl">
                 <dt className="contact__dt">WOOHEE KWAK</dt>
                 <dd className="contact__dd contact__mail">

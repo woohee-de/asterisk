@@ -8,7 +8,7 @@ function Work() {
   return (
     <>
       <div className="main-section">
-        <p className="catchphrase">
+        <p className="slogun">
           Symbol is ASTERISK, means a designer
           <br />
           who knows What is IMPORTANT

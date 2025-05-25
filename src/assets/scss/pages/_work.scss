@@ -1,4 +1,4 @@
-.catchphrase {
+.slogun {
   font-size: 50px;
   line-height: 1;
 }
@@ -35,7 +35,7 @@
 }
 
 /*tablet*/
-@media screen and (max-width: 1179px) { 
+@media screen and (max-width: $tablet) { 
 	.work {
     &__list{
       grid-template-columns: repeat(1, 1fr);
@@ -44,6 +44,6 @@
   }
 } 
 /*mobile*/
-@media screen and (max-width: 880px) { 
+@media screen and (max-width: $mobile) { 
 
 }

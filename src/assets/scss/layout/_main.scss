@@ -2,14 +2,20 @@
   padding-inline: var(--gap);
 
   &__layout {
-    display: flex;
-    gap: var(--gap);
     padding-top: 130px;
+    display: grid;
+    grid-template-columns: var(--sidewid) auto;
+    grid-template-areas: 'title contents';
+    column-gap: var(--gap);
+    transition: 0.2s;
   }
 }
 
 .main-sidebar {
-  width: var(--sidewid);
+  grid-area: title;
+  position: sticky;
+  height: fit-content;
+  top: 258px;
 
   &__title {
     font-size: var(--font-xl);
@@ -19,5 +25,5 @@
 }
 
 .main-container {
-  flex: 1;
+  grid-area: contents;
 }

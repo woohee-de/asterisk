@@ -1,0 +1,29 @@
+.cursor {
+	width: 80px;
+	height: 80px;
+	background:transparent url(/images/logo-only.svg) no-repeat center/100%;
+    border-radius: 50%;
+	position: fixed;
+	top: -9999px;
+	left: -9999px;
+	transition: transform 0.2s;
+	z-index: 20;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+.cursor.on {
+	opacity: 1;
+	animation: rotate 2s infinite linear;
+}
+
+
+@keyframes rotate {
+	0% {
+		transform:rotate(0deg);
+	}
+	100% {
+		transform:rotate(360deg);
+	}
+}

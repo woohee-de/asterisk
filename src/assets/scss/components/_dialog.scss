@@ -33,10 +33,6 @@
         margin: 0 auto;
     }
 
-    &__img {
-        height: 100%;
-    }
-
     &::backdrop {
         background-color: rgba(0, 0, 0, 1);
     }
@@ -49,3 +45,13 @@
         filter: invert(100%);
     }
 }
+
+/*tablet*/
+@media screen and (max-width: $tablet) { 
+    .dialog-viewer { 
+        &__img {
+            width: 100%;
+        }
+    }
+
+} 

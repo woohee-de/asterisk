@@ -27,15 +27,18 @@
 	--sidewid: 500px;
 }
 
+$tablet :1500px;
+$mobile : 880px;
+
 /*tablet*/
-@media screen and (max-width: 1179px) { 
+@media screen and (max-width: $tablet) { 
 	:root {
-		--sidewid :400px;
+		--sidewid :360px;
 		--gap:32px;
 	}
 } 
 /*mobile*/
-@media screen and (max-width: 880px) { 
+@media screen and (max-width: $mobile) { 
 	:root {
 		--gap:20px;
 	}
@@ -51,10 +54,10 @@ body {
 
 
 /*tablet*/
-@media screen and (max-width: 1179px) { 
+@media screen and (max-width: $tablet) { 
 } 
 /*mobile*/
-@media screen and (max-width: 880px) { 
+@media screen and (max-width: $mobile) { 
     // h1,h2 {
     //     font-weight: 500;
     //     font-size:var(--font-lg);
@@ -90,32 +93,3 @@ body {
 	}
 }
 
-.cursor {
-	width: 80px;
-	height: 80px;
-	background:transparent url(/images/logo-only.svg) no-repeat center/100%;
-    border-radius: 50%;
-	position: fixed;
-	top: -9999px;
-	left: -9999px;
-	transition: transform 0.2s;
-	z-index: 20;
-	opacity: 0;
-	pointer-events: none;
-}
-
-
-.cursor.on {
-	opacity: 1;
-	animation: rotate 2s infinite linear;
-}
-
-
-@keyframes rotate {
-	0% {
-		transform:rotate(0deg);
-	}
-	100% {
-		transform:rotate(360deg);
-	}
-}

@@ -25,3 +25,27 @@
     }
 }
 
+/*tablet*/
+@media screen and (max-width: $tablet) { 
+    .contact {
+        width: 100%;
+        flex-direction: column;
+        gap: 60px;
+
+        &__item {
+            &--email {
+                order: 1;
+            }
+    
+            &--skill {
+                order: 2;
+            }
+        }   
+    }
+
+} 
+
+/*mobile*/
+@media screen and (max-width: $mobile) { 
+	
+}
