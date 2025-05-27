@@ -1,5 +1,32 @@
 const projects = [
   {
+    id: 'markettoo',
+    title: 'Markettoo',
+    thum: '/images/pj-markettoo.jpg',
+    year: '2023',
+    period: '2023',
+    description: `우리동네 단골마트를 앱에서 쉽게 쇼핑하는 마켓또 앱 디자인. 마켓또는 소상공인과 소비자를 지역공동체로 연결하는 플랫폼이다. 로또 시스템을 차용한 마또 코너를 통해 미니게임을 도입하여 쇼핑과 캐시모으기, 마또를 아우르는 앱 전부를 일종의 미니 게임으로 연출했다.`,
+    client: 'Dooit telecom',
+    category: 'App design',
+    images: {
+      solo: [
+        { src: '/images/pj-markettoo-1.jpg', dialogView: false },
+        { src: '/images/pj-markettoo-2.jpg', dialogView: false },
+        { src: '/images/pj-markettoo-3.jpg', dialogView: false },
+        { src: '/images/pj-markettoo-4.jpg', dialogView: false },
+        { src: '/images/pj-markettoo-5.jpg', dialogView: false },
+        { src: '/images/pj-markettoo-6.jpg', dialogView: false },
+        { src: '/images/pj-markettoo-7.jpg', dialogView: false },
+        { src: '/images/pj-markettoo-8.jpg', dialogView: false },
+        { src: '/images/pj-markettoo-9.jpg', dialogView: false },
+        { src: '/images/pj-markettoo-10.jpg', dialogView: false },
+        { src: '/images/pj-markettoo-11.jpg', dialogView: false },
+        { src: '/images/pj-markettoo-12.jpg', dialogView: false },
+      ],
+      flex: [],
+    },
+  },
+  {
     id: 'matthiola',
     title: 'Matthiola',
     thum: '/images/pj-matthi.jpg',
