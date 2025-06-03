@@ -2,7 +2,7 @@ const projects = [
   {
     id: 'markettoo',
     title: 'Markettoo',
-    thum: '/images/pj-markettoo.jpg',
+    thum: '/images/markettoo/pj-markettoo.jpg',
     year: '2023',
     period: '2023',
     description: `우리동네 단골마트를 앱에서 쉽게 쇼핑하는 마켓또 앱 디자인. 마켓또는 소상공인과 소비자를 지역공동체로 연결하는 플랫폼이다. 로또 시스템을 차용한 마또 코너를 통해 미니게임을 도입하여 쇼핑과 캐시모으기, 마또를 아우르는 앱 전부를 일종의 미니 게임으로 연출했다.`,
@@ -29,7 +29,7 @@ const projects = [
   {
     id: 'matthiola',
     title: 'Matthiola',
-    thum: '/images/pj-matthi.jpg',
+    thum: '/images/matthi/pj-matthi.jpg',
     year: '2020',
     period: '2020',
     description: `플라워 디자인 샵 마띠올라의 CI 리뉴얼. 
@@ -49,7 +49,7 @@ const projects = [
   {
     id: 'jl',
     title: 'JL Corporation',
-    thum: '/images/pj-jl.jpg',
+    thum: '/images/jl/pj-jl.jpg',
     year: '2019',
     period: '2019',
     description: `문구 사무용품 도매사 제이엘 코퍼레이션의 CI 디자인.
@@ -69,7 +69,7 @@ const projects = [
   {
     id: 'innersence',
     title: 'Innersence',
-    thum: '/images/pj-innersence.jpg',
+    thum: '/images/innersence/pj-innersence.jpg',
     year: '2018',
     period: '2018',
     description: `이너센스는 제이엘 코퍼레이션의 자사 도매 브랜드로 이너웨어를 중심으로 문구, 사무 용품을 판매하고 있다. 자사몰로 사용하고 있는 스토어팜의 배너와 제품 상세 페이지를 작업했다.`,
@@ -92,7 +92,7 @@ const projects = [
   {
     id: 'tym',
     title: 'Magazine tym',
-    thum: '/images/pj-tym.jpg',
+    thum: '/images/tym/pj-tym.jpg',
     year: '2016',
     period: '2016-17',
     description: `퍼스널 트레이닝 센터 TEAMYOONGYM에서 전국 30여개 지점에 배포한 월간지 사보 tym 디자인. 숨겨진 어플, 세계의 기상천외한 사건, 다이어트 레시피, 영화소개, 생활 칼럼, 간단한 트레이닝법 페이지를 전담했다.
