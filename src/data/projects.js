@@ -1,5 +1,32 @@
 const projects = [
   {
+    id: 'pay1004',
+    title: 'Pay1004',
+    thum: '/images/pay1004/pj-pay1004-1.jpg',
+    year: '2025',
+    period: '2025',
+    description: `페이천사 설명`,
+    client: 'Dooit telecom',
+    category: 'App design',
+    images: {
+      solo: [
+        { src: '/images/pay1004/pj-pay1004-1.jpg', dialogView: false },
+        { src: '/images/pay1004/pj-pay1004-2.jpg', dialogView: false },
+        { src: '/images/pay1004/pj-pay1004-3.jpg', dialogView: false },
+        { src: '/images/pay1004/pj-pay1004-4.jpg', dialogView: false },
+        { src: '/images/pay1004/pj-pay1004-5.jpg', dialogView: false },
+        { src: '/images/pay1004/pj-pay1004-6.jpg', dialogView: false },
+        { src: '/images/pay1004/pj-pay1004-7.jpg', dialogView: false },
+        { src: '/images/pay1004/pj-pay1004-8.jpg', dialogView: false },
+        { src: '/images/pay1004/pj-pay1004-9.jpg', dialogView: false },
+        { src: '/images/pay1004/pj-pay1004-10.jpg', dialogView: false },
+        { src: '/images/pay1004/pj-pay1004-11.jpg', dialogView: false },
+        { src: '/images/pay1004/pj-pay1004-12.jpg', dialogView: false },
+      ],
+      flex: [],
+    },
+  },
+  {
     id: 'markettoo',
     title: 'Markettoo',
     thum: '/images/markettoo/pj-markettoo.jpg',
