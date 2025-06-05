@@ -5,7 +5,7 @@ const projects = [
     thum: '/images/pay1004/pj-pay1004-1.jpg',
     year: '2025',
     period: '2025',
-    description: `페이천사 설명`,
+    description: `지역 학원과 상생을 도모하는 페이천사 앱 디자인. 학원교육의 건전한 발전과 새로운 가치를 실현하는 외국어 교육 협의회와 협업했다. 현금과 동일한 가치를 지닌 페이를 다양한 이벤트를 통해 적립하고, 지역 학원에서 쉽게 결제할 수 있다.`,
     client: 'Dooit telecom',
     category: 'App design',
     images: {
