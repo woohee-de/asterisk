@@ -1,6 +1,10 @@
 .main {
   padding-inline: var(--gap);
 
+  &-section {
+    padding:40px 80px;
+  }
+
   &__layout {
     padding-top: 130px;
     display: grid;
@@ -36,6 +40,10 @@
 @media screen and (max-width: $mobile) { 
 	.main {
     padding-bottom: var(--gap);
+
+    &-section {
+      padding: 20px 40px 0;
+    }
 
     &__layout {
       display: block;
