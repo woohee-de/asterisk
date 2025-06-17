@@ -21,7 +21,7 @@ function CustomCursor() {
         const handleEnter = () => setHoveringLink(true);
         const handleLeave = () => setHoveringLink(false);
 
-        const links = document.querySelectorAll('a, a[href^="mailto:"], [data-link], [data-dialog="true"]');
+        const links = document.querySelectorAll('[data-hover="true"]');
         links.forEach((link) => {
             link.addEventListener('mouseenter', handleEnter);
             link.addEventListener('mouseleave', handleLeave);

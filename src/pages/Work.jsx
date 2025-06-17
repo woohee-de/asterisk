@@ -26,7 +26,7 @@ function Work() {
             <ul className="work__list">
               {projects.map((project) => (
                 <li key={project.id} className="project">
-                  <Link to={`/detail/${project.id}`} className="project__link">
+                  <Link to={`/detail/${project.id}`} className="project__link" data-hover="true">
                     <figure>
                       <img
                         src={project.thum}

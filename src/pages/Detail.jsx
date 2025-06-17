@@ -56,6 +56,7 @@ function Detail() {
                       key={`${startIdx + idx}`}
                       className="detail__img"
                       data-dialog={dialogView ? true : undefined}
+                      data-hover="true"
                       src={src}
                       alt={`${project.title} 이미지 ${startIdx + idx + 1}`}
                     />

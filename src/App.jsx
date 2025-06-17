@@ -38,7 +38,7 @@ function App() {
 
   return (
     <>
-      <CustomCursor />
+      {/* <CustomCursor /> */}
       <DialogViewer />
 
       <AnimatePresence mode="wait" onExitComplete={() => {

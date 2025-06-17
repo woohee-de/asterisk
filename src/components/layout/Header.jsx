@@ -8,7 +8,7 @@ function Header() {
     <header className="header">
       <div className="header__logo">
         <h1 className="logo">
-          <Link to="/" className="logo__link">
+          <Link to="/" className="logo__link" data-hover="true">
             <img src="/images/logo.svg" alt="로고" className="logo__img" />
           </Link>
         </h1>
@@ -17,12 +17,12 @@ function Header() {
         <nav className="nav" aria-label="메인메뉴">
           <ul className="nav__list">
             <li className="nav__item">
-              <Link to="/" className="nav__link">
+              <Link to="/" className="nav__link" data-hover="true">
                 WORK
               </Link>
             </li>
             <li className="nav__item">
-              <Link to="/contact" className="nav__link">
+              <Link to="/contact" className="nav__link" data-hover="true">
                 CONTACT
               </Link>
             </li>

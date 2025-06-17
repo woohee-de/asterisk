@@ -30,7 +30,7 @@ function Contact() {
               <dl className="cantact__dl">
                 <dt className="contact__dt">WOOHEE KWAK</dt>
                 <dd className="contact__dd contact__mail">
-                  <a href="mailto:woohee.de@gmail.com">woohee.de@gmail.com</a>
+                  <a href="mailto:woohee.de@gmail.com" data-hover="true">woohee.de@gmail.com</a>
                 </dd>
               </dl>
             </div>
