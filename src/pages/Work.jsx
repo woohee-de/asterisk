@@ -17,16 +17,37 @@ function Work() {
 
       <div className="main__layout">
         <MainSidebar>
-          <h2 className="main-sidebar__title main-sidebar__title--mo-hidden">
+          {/* <h2 className="main-sidebar__title main-sidebar__title--mo-hidden">
             WORK
-          </h2>
+          </h2> */}
+
+          <div className="main-sidebar__nav">
+            <nav className="sidebar-nav" aria-label="메인메뉴">
+              <ul className="sidebar-nav__list">
+                <li className="sidebar-nav__item">
+                  <Link to="/" className="sidebar-nav__link" data-hover="true">
+                    WORK
+                  </Link>
+                </li>
+                <li className="sidebar-nav__item">
+                  <Link to="/contact" className="sidebar-nav__link" data-hover="true">
+                    CONTACT
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </MainSidebar>
         <MainContainer>
           <div className="work">
             <ul className="work__list">
               {projects.map((project) => (
                 <li key={project.id} className="project">
-                  <Link to={`/detail/${project.id}`} className="project__link" data-hover="true">
+                  <Link
+                    to={`/detail/${project.id}`}
+                    className="project__link"
+                    data-hover="true"
+                  >
                     <figure>
                       <img
                         src={project.thum}

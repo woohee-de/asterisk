@@ -19,12 +19,20 @@
   grid-area: title;
   position: sticky;
   height: fit-content;
-  top: 258px;
 
   &__title {
     font-size: var(--font-xl);
     font-weight: var(--medium);
     margin-bottom: 32px;
+  }
+}
+
+.sidebar-nav {
+  font-size: var(--font-xl);
+  font-weight: var(--medium);
+
+  &__item {
+    margin-bottom: 4px;
   }
 }
 
@@ -52,6 +60,7 @@
   }
 
   .main-sidebar {
+    display: none;
     top: auto;
     margin-bottom: 48px;
 

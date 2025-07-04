@@ -13,7 +13,7 @@ function Header() {
           </Link>
         </h1>
       </div>
-      <div className="header__nav">
+      {/* <div className="header__nav">
         <nav className="nav" aria-label="메인메뉴">
           <ul className="nav__list">
             <li className="nav__item">
@@ -28,7 +28,7 @@ function Header() {
             </li>
           </ul>
         </nav>
-      </div>
+      </div> */}
 
       {/* 모바일 메뉴 */}
       <button type="button" onClick={() => setIsOpen(!isOpen)} className="btn-gnbmo" aria-label="모바일 메뉴 열기"></button>
