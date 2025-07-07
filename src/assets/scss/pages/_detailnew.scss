@@ -12,6 +12,19 @@
 }
 
 .detail {
+  &__img-wrap {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+    &--flex {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      // gap: 10px;
+    }
+  }
+  
   &__img {
     display: block;
     width: 100%;

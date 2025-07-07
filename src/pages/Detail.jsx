@@ -44,18 +44,29 @@ function Detail() {
 
       <div className="detail-content">
         <div className="inner">
-          {project.images?.solo?.map(({ src, title, desc }, idx) => {
+          {project.images?.solo?.map(({ src, title, desc, long }, idx) => {
             const isNarrow = project.narrowSections?.includes(idx);
             return (
               <div
                 className={`detail-sec ${isNarrow ? 'detail-sec--narrow' : ''}`}
                 key={`solo-${idx}`}
               >
-                <img
-                  className="detail__img"
-                  src={src}
-                  alt={`${project.title} 이미지 ${idx + 1}`}
-                />
+                {long ? (
+                  <img
+                    className="detail__img"
+                    src={src}
+                    alt={`${project.title} 이미지 ${idx + 1}`}
+                  />
+                ) : (
+                  <div className="detail__img-wrap">
+                    <img
+                      className="detail__img"
+                      src={src}
+                      alt={`${project.title} 이미지 ${idx + 1}`}
+                    />
+                  </div>
+                )}
+
                 {title && desc && (
                   <div className="detail-sec__desc inner-text">
                     <h3 className="detail-sec__desc-title">{title}</h3>
