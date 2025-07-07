@@ -10,7 +10,7 @@ function Detail() {
 
   return (
     <div className="detail">
-      <div className="detail-head inner-text">
+      <div className="detail-head inner">
         <h2 className="detail-title">{project.title}</h2>
 
         <div className="detail-infos">
