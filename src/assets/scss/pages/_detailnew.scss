@@ -79,8 +79,9 @@
 
     &__img {
       display: block;
-      height: 800px;
+      height: 900px;
       object-fit: cover;
+      // object-position: top;
       width: 100vw;
       margin-left: calc(-50vw + 50%);
       overflow: hidden;

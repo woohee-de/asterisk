@@ -9,22 +9,43 @@ const projects = [
     role: 'UX/UI Design',
     category: 'App design',
     thum: '/images/pay1004/pj-pay1004-1.jpg',
-    intro: `페이천사는 지역 학원과 상생을 도모하는 앱 프로덕트입니다. 학원교육의 건전한 발전과 새로운 가치를 실현하는 외국어 교육 협의회와 협업했습니다. 현금과 동일한 가치를 지닌 페이를 다양한 이벤트를 통해 적립하고, 지역 학원에서 쉽게 결제할 수 있습니다.`,
+    intro: `페이천사는 외국어 교육 협의회와 협업하여 기획된 지역 기반 학원 연계 결제 및 리워드 플랫폼입니다. 사용자는 다양한 이벤트를 통해 ‘페이’를 적립하고, 제휴 학원에서 수강료 결제는 물론 향후 쇼핑 등에도 현금처럼 활용할 수 있습니다. 프로젝트의 핵심 목표는 단순한 결제 수단을 넘어, 학습자–지역 학원–교육 기관을 유기적으로 연결하는 구조를 시각적으로 드러내고, ‘학원 교육과 지역 경제의 상생’이라는 가치를 직관적으로 전달하는 UX/UI를 구현하는 것이었습니다.
+
+“협약 학원에서만 사용할 수 있는 포인트 기반 화폐예요. 일반 지역화폐처럼 복잡하진 않았으면 좋겠어요. 이벤트로 페이를 적립한 뒤 어디에서, 어떻게 쓸 수 있는지 명확하게 보여줘야 해요. 단순한 UI지만, 나중에 쇼핑이나 다른 기능이 추가될 수 있도록 확장성도 고려해야 해요.” 이와 같은 요구를 바탕으로 다음과 같은 설계 방향을 설정했습니다. 적립-보유-사용 가능처까지 흐름을 한눈에 파악할 수 있는 간결한 UX와 향후 콘텐츠/쇼핑 확장에 유연하게 대응할 수 있는 UI 시스템을 지향했습니다. 
+
+앱의 구조적 기반은 사용자(학습자), 지역 학원(파트너), 교육협의회(공공기관)의 연결에 있습니다. 메인 화면 메시지를 통해, 이 3자 간 상생 구조를 시각적으로 명확히 전달하고  앱의 정체성과 가치를 사용자에게 분명하게 인식시키는 것을 디자인 핵심으로 설정했습니다.`,
 
     images: {
       solo: [
-        { src: '/images/pay1004/pj-pay1004-1.jpg', dialogView: false },
-        { src: '/images/pay1004/pj-pay1004-2.jpg', dialogView: false },
-        { src: '/images/pay1004/pj-pay1004-3.jpg', dialogView: false },
-        { src: '/images/pay1004/pj-pay1004-4.jpg', dialogView: false },
-        { src: '/images/pay1004/pj-pay1004-5.jpg', dialogView: false },
-        { src: '/images/pay1004/pj-pay1004-6.jpg', dialogView: false },
-        { src: '/images/pay1004/pj-pay1004-7.jpg', dialogView: false },
-        { src: '/images/pay1004/pj-pay1004-8.jpg', dialogView: false },
-        { src: '/images/pay1004/pj-pay1004-9.jpg', dialogView: false },
-        { src: '/images/pay1004/pj-pay1004-10.jpg', dialogView: false },
-        { src: '/images/pay1004/pj-pay1004-11.jpg', dialogView: false },
-        { src: '/images/pay1004/pj-pay1004-12.jpg', dialogView: false },
+        { src: '/images/pay1004/pj-pay1004-1.jpg' },
+        { src: '/images/pay1004/pj-pay1004-2.jpg' },
+        { src: '/images/pay1004/pj-pay1004-3.jpg' },
+        { src: '/images/pay1004/pj-pay1004-4.jpg' },
+        {
+          src: '/images/pay1004/pj-pay1004-5.jpg',
+          title: `Simplicity Design`,
+          desc: `복잡한 기능보다는 ‘쓸 수 있는 화폐’라는 본질에 집중한 단순한 앱 경험을 목표로 했습니다. 전체적인 UI는 공공앱처럼 무겁지 않으면서도, 페이의 적립·보유·결제 흐름이 직관적으로 드러나도록 시각적 명료성에 중점을 두었습니다. 앱의 전반적인 분위기는 학습자에게 친숙하면서도, 교육기관의 공신력을 함께 담을 수 있도록 구성했습니다.  Simplicity, Ease, Education이라는 세 가지 키워드를 기반으로  컬러와 아이콘 스타일을 설정하고, 정보 밀도는 낮추되 시각적 명확도는 높이는 UI 구조를 설계했습니다.`,
+        },
+        { src: '/images/pay1004/pj-pay1004-6.jpg' },
+        { src: '/images/pay1004/pj-pay1004-7.jpg' },
+        {
+          src: '/images/pay1004/pj-pay1004-8.jpg',
+          title: `학원 선택`,
+          desc: `사용자가 페이를 실제 사용할 수 있는 학원을 찾는 과정은 가장 핵심적인 진입 지점입니다. 그래서 과목/지역 필터를 단순화하고, 리스트형 UI로 누구나 쉽게 접근할 수 있도록 설계했습니다. 향후 지도 기반 UI로의 확장을 고려하여 현재 버전은 정보 구조에 집중했습니다.`,
+        },
+        { src: '/images/pay1004/pj-pay1004-9.jpg' },
+        {
+          src: '/images/pay1004/pj-pay1004-10.jpg',
+          title: `마이`,
+          desc: `마이페이지는 사용자의 행동을 리텐션으로 연결시키는 구조입니다. 보유 페이, 사용 및 적립 내역, 등록한 학원 등의 자주 쓰는 기능을 정리하여, 간결한 디자인 안에서도 다양한 기능을 쉽게 탐색할 수 있도록 설계했습니다.`,
+        },
+        { src: '/images/pay1004/pj-pay1004-11.jpg' },
+        {
+          src: '/images/pay1004/pj-pay1004-12.jpg',
+          title: `결제 화면`,
+          desc: `앱의 핵심 전환 지점인 결제 화면은 ‘페이’ 사용 UX에 최적화된 구조입니다.  보유 페이 시각화, 사용할 페이 선택, 결제 완료까지 한 화면 내 흐름을 유도했습니다. 결제 플로우 중간에 사용 가능 금액과 포인트 적용 여부를 명확하게 표시해 혼선을 줄였고, 시각적으로는 페이카드를 중심으로 한 UI 메타포를 적용했습니다.`,
+        },
+        { src: '/images/pay1004/pj-pay1004-13.jpg' },
       ],
       flex: [],
     },
@@ -95,7 +116,7 @@ const projects = [
         { src: '/images/markettoo/pj-markettoo-3.jpg' },
         {
           src: '/images/markettoo/pj-markettoo-4.jpg',
-          title:`컬러와 아이콘으로 완성한 경험 구조`,
+          title: `컬러와 아이콘으로 완성한 경험 구조`,
           desc: `마켓또 앱은 쇼핑과 적립, 그리고 ‘마또’라는 리텐션 게임 기능이 하나의 흐름 안에서 자연스럽게 연결되도록 구성된 플랫폼입니다. 전체 디자인은 ‘쉽고 직관적인 쇼핑 경험’과 ‘재미 요소를 통한 리텐션 강화’의 균형에 중점을 두고 구성했습니다. 컬러와 3D 아이콘 시스템 또한 각 기능의 의미를 시각적으로 분명히 전달하도록 구조화했습니다. 메인 컬러는 ‘돈’, ‘금’, ‘적립’의 개념을 직관적으로 떠올리게 하는 색상으로, 앱의 핵심 기능인 ‘캐시’를 상징합니다. 이 색을 통해 사용자에게 ‘현금처럼 쓸 수 있는 리워드가 있다’는 신뢰와 친근함을 동시에 전달하고자 했습니다.`,
         },
         { src: '/images/markettoo/pj-markettoo-5.gif', desc: false },
