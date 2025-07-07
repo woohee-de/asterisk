@@ -37,6 +37,7 @@ function Contact() {
                 <dd className="contact__dd">Figma</dd>
                 <dd className="contact__dd">Photoshop</dd>
                 <dd className="contact__dd">Illustrator</dd>
+                <dd className="contact__dd">InDesign</dd>
 
                 <dd className="contact__dd contact__dd--divide">HTML</dd>
                 <dd className="contact__dd">CSS/SCSS</dd>

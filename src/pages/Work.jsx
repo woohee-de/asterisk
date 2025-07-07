@@ -7,13 +7,13 @@ import projects from '@/data/projects';
 function Work() {
   return (
     <>
-      <div className="main-section">
+      {/* <div className="main-section">
         <p className="slogun">
           Symbol is ASTERISK, means a designer
           <br />
           who knows What is IMPORTANT
         </p>
-      </div>
+      </div> */}
 
       <div className="main__layout">
         <MainSidebar>

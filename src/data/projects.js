@@ -10,7 +10,7 @@ const projects = [
     category: 'App design',
     thum: '/images/pay1004/pj-pay1004-1.jpg',
     intro: `페이천사는 지역 학원과 상생을 도모하는 앱 프로덕트입니다. 학원교육의 건전한 발전과 새로운 가치를 실현하는 외국어 교육 협의회와 협업했습니다. 현금과 동일한 가치를 지닌 페이를 다양한 이벤트를 통해 적립하고, 지역 학원에서 쉽게 결제할 수 있습니다.`,
-    
+
     images: {
       solo: [
         { src: '/images/pay1004/pj-pay1004-1.jpg', dialogView: false },
@@ -86,22 +86,38 @@ const projects = [
     role: 'UX/UI Design',
     category: 'App design',
     thum: '/images/markettoo/pj-markettoo.jpg',
-    intro: `우리동네 단골마트를 앱에서 쉽게 쇼핑하는 마켓또 앱 디자인. 마켓또는 소상공인과 소비자를 지역공동체로 연결하는 플랫폼입니다. 로또 시스템을 차용한 마또 코너를 통해 미니게임을 도입하여 쇼핑과 캐시모으기, 마또를 아우르는 앱 전부를 일종의 미니 게임으로 연출했습니다.`,
-    
+    intro: `마켓또는 ‘우리 동네 단골마트’와 소비자를 연결하는 지역 커머스 앱입니다.  간단한 UX 구조와 높은 몰입감을 중심으로 설계했으며, 소비자 리텐션을 위해 로또 시스템을 차용한 ‘마또’ 기능과 캐시 적립형 미션 요소를 함께 구성했습니다. 앱 전반은 쇼핑-캐시 적립-마또 참여로 이어지는 하나의 유기적인 흐름 안에서 작동하며, 단순한 기능을 넘어 사용자에게 ‘즐기는 커머스 경험’을 제공하는 플랫폼을 지향했습니다. “쇼핑도 하고, 뭔가 재미있는 걸 하면 좋겠어요. 꾸준히 쓰게요. 중장년층도 쉽게 쓸 수 있고, 자주 들어와야 해요.” 이러한 니즈를 바탕으로, 쇼핑과 리워드, 마또 기능을 하나의 사용자 여정으로 통합하는 설계에 집중했습니다.`,
+
     images: {
       solo: [
-        { src: '/images/markettoo/pj-markettoo-1.jpg', dialogView: false },
-        { src: '/images/markettoo/pj-markettoo-2.jpg', dialogView: false },
-        { src: '/images/markettoo/pj-markettoo-3.jpg', dialogView: false },
-        { src: '/images/markettoo/pj-markettoo-4.jpg', dialogView: false },
-        { src: '/images/markettoo/pj-markettoo-5.gif', dialogView: false },
-        { src: '/images/markettoo/pj-markettoo-6.jpg', dialogView: false },
-        { src: '/images/markettoo/pj-markettoo-7.jpg', dialogView: false },
-        { src: '/images/markettoo/pj-markettoo-8.jpg', dialogView: false },
-        { src: '/images/markettoo/pj-markettoo-9.jpg', dialogView: false },
-        { src: '/images/markettoo/pj-markettoo-10.jpg', dialogView: false },
-        { src: '/images/markettoo/pj-markettoo-11.jpg', dialogView: false },
-        { src: '/images/markettoo/pj-markettoo-12.jpg', dialogView: false },
+        { src: '/images/markettoo/pj-markettoo-1.jpg' },
+        { src: '/images/markettoo/pj-markettoo-2.jpg' },
+        { src: '/images/markettoo/pj-markettoo-3.jpg' },
+        {
+          src: '/images/markettoo/pj-markettoo-4.jpg',
+          title:`컬러와 아이콘으로 완성한 경험 구조`,
+          desc: `마켓또 앱은 쇼핑과 적립, 그리고 ‘마또’라는 리텐션 게임 기능이 하나의 흐름 안에서 자연스럽게 연결되도록 구성된 플랫폼입니다. 전체 디자인은 ‘쉽고 직관적인 쇼핑 경험’과 ‘재미 요소를 통한 리텐션 강화’의 균형에 중점을 두고 구성했습니다. 컬러와 3D 아이콘 시스템 또한 각 기능의 의미를 시각적으로 분명히 전달하도록 구조화했습니다. 메인 컬러는 ‘돈’, ‘금’, ‘적립’의 개념을 직관적으로 떠올리게 하는 색상으로, 앱의 핵심 기능인 ‘캐시’를 상징합니다. 이 색을 통해 사용자에게 ‘현금처럼 쓸 수 있는 리워드가 있다’는 신뢰와 친근함을 동시에 전달하고자 했습니다.`,
+        },
+        { src: '/images/markettoo/pj-markettoo-5.gif', desc: false },
+        { src: '/images/markettoo/pj-markettoo-6.jpg', desc: false },
+        {
+          src: '/images/markettoo/pj-markettoo-7.jpg',
+          title: `주문`,
+          desc: `사용자가 장바구니에서 결제를 진행하는 흐름은 실제 사용 중 가장 높은 이탈률을 보이는 구간이었습니다. 특히 배송일과 배송시간 선택 단계에서 혼란이 많다는 피드백을 기반으로, UI 구조를 대폭 단순화했습니다. ‘배송 요청일 → 배송 시간’의 흐름을 한눈에 이해할 수 있도록 UI를 분리하고, 선택한 날짜에 따라 선택 가능한 시간대를 자동으로 안내하도록 구성했습니다. 복잡한 캘린더 형태 대신, 직관적인 버튼형 UI로 구성하여 클릭 한 번으로 선택 가능하게 설계했습니다.`,
+        },
+        {
+          src: '/images/markettoo/pj-markettoo-8.jpg',
+          title: `캐시모으기`,
+          desc: `쇼핑 외에도 캐시를 얻을 수 있는 구조를 시각적으로 강조했습니다. 다양한 유입 루트를 명확히 보여주는 방식으로, 사용자 리텐션과 이벤트 전환을 동시에 유도합니다.`,
+        },
+        { src: '/images/markettoo/pj-markettoo-9.jpg', desc: false },
+        {
+          src: '/images/markettoo/pj-markettoo-10.jpg',
+          title: `마또`,
+          desc: `‘마또’는 마켓또 앱의 가장 차별화된 기능으로, 단순 쇼핑 앱을 넘어 재미와 보상의 경험을 함께 제공하는 핵심 리텐션 장치입니다. UI는 복잡한 절차 없이, 게임처럼 직관적으로 참여할 수 있도록 구성했습니다. 전체 구조는 실제 복권 UX를 본떠 설계하되, 시각 피로도를 줄이고 사용자 집중도를 높일 수 있도록 ‘숫자 선택–구매–당첨 확인’의 흐름을 시각적으로 명확히 구분했습니다. 전반적으로는 ‘복잡한 복권 구조를 단순한 카드 게임처럼 느껴지도록 만드는 시각 설계’에 중점을 두었습니다. UX 기획과 UI 설계가 긴밀히 맞물린 대표 기능으로, 사용자는 별다른 학습 없이도 자연스럽게 참여 흐름을 이해하고, 선택의 재미와 보상의 기대감을 동시에 경험할 수 있도록 설계했습니다.`,
+        },
+        { src: '/images/markettoo/pj-markettoo-11.jpg', desc: false },
+        { src: '/images/markettoo/pj-markettoo-12.jpg', desc: false },
       ],
       flex: [],
     },
@@ -112,12 +128,12 @@ const projects = [
     year: '2020',
     period: '2020',
     client: 'Matthiola Flower Shop',
-    tool:'Illustrator',
-    role:'Logo Design',
+    tool: 'Illustrator',
+    role: 'Logo Design',
     category: 'Logo design',
     thum: '/images/matthi/pj-matthi.jpg',
     intro: `플라워 디자인 샵 마띠올라의 CI 리뉴얼. 기존 로고와 어울리면서 단독으로도 사용할 수 있는 심볼마크를 디자인했습니다.`,
-    
+
     narrowSections: [0, 1, 2, 3], // solo 섹션 기준 인덱스
     images: {
       solo: [
@@ -135,12 +151,12 @@ const projects = [
     year: '2019',
     period: '2019',
     client: 'JL Corporation',
-    tool:'Illustrator',
-    role:'Logo Design',
+    tool: 'Illustrator',
+    role: 'Logo Design',
     category: 'Logo design',
     thum: '/images/jl/pj-jl.jpg',
     intro: `문구 사무용품 도매사 제이엘 코퍼레이션의 CI 디자인. 알파벳 J와 L을 결합하여 견고하면서도 유연한 유통의 흐름을 표현했습니다.`,
-    
+
     narrowSections: [0, 1, 2, 3], // solo 섹션 기준 인덱스
     images: {
       solo: [
@@ -158,12 +174,12 @@ const projects = [
     year: '2018',
     period: '2018',
     client: 'JL Corporation',
-    tool:'Photoshop',
-    role:'Product Detail Page design',
+    tool: 'Photoshop',
+    role: 'Product Detail Page design',
     category: 'Product Detail Page design',
     thum: '/images/innersence/pj-innersence.jpg',
     intro: `이너센스는 제이엘 코퍼레이션의 자사 도매 브랜드로 이너웨어를 중심으로 문구, 사무 용품을 판매하고 있습니다. 자사몰로 사용하고 있는 스토어팜의 배너와 제품 상세 페이지를 작업했습니다.`,
-    
+
     narrowSections: [0, 1, 2], // solo 섹션 기준 인덱스
     images: {
       solo: [
@@ -197,13 +213,13 @@ const projects = [
     year: '2016',
     period: '2016-17',
     client: 'teamyoongym',
-    tool:'InDesign',
-    role:'Editorial design',
+    tool: 'InDesign',
+    role: 'Editorial design',
     category: 'Editorial design',
     thum: '/images/tym/pj-tym.jpg',
     intro: `퍼스널 트레이닝 센터 TEAMYOONGYM에서 전국 30여개 지점에 배포한 월간지 사보 tym 디자인. 숨겨진 어플, 세계의 기상천외한 사건, 다이어트 레시피, 영화소개, 생활 칼럼, 간단한 트레이닝법 페이지를 전담했습니다. 또한 TEAMYOONGYM의 자사 브랜드이자 단백질 보충제 브랜드 TYN에서 건강하고 아름다운 몸을 위한 보충제 제품 포스터를 디자인하여 사보 콘텐츠로 활용했습니다.`,
-    
-    narrowSections: [0, 1, 2, 3, 4,5], // solo 섹션 기준 인덱스
+
+    narrowSections: [0, 1, 2, 3, 4, 5], // solo 섹션 기준 인덱스
     images: {
       solo: [
         { src: '/images/tym/pj-tym.jpg', dialogView: false },

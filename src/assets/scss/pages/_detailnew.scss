@@ -24,6 +24,11 @@
     margin-bottom: 16px;
   }
 
+  &-head {
+    padding-top: 50px;
+
+  }
+
   &-infos {
     display: flex;
     align-items: center;
@@ -111,10 +116,6 @@
   }
 
   .detail {
-    &-head {
-      padding-top: 50px;
-
-    }
     
     &-infos {
       flex-direction: column;
