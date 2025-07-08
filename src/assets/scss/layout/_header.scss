@@ -54,7 +54,7 @@
   left: 0;
   background-color: var(--bk);
   padding:36px;
-  padding-top:240px;
+  padding-top:380px;
 
   &.open {
     display: block;
@@ -66,7 +66,7 @@
 
   &__link {
     color:#fff;
-    font-size:var(--font-lg);
+    font-size:var(--font-xl);
     font-weight: var(--regular);
     text-decoration: underline;
   }
@@ -91,6 +91,10 @@
 @media screen and (max-width: $mobile) { 
 	.nav {
     display: none;
+  }
+
+  .gnbmo {
+    padding-top: 280px;
   }
 
   // .btn-gnbmo {
