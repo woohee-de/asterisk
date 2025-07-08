@@ -115,8 +115,8 @@ const projects = [
           title: `컬러와 아이콘으로 완성한 경험 구조`,
           desc: `마켓또 앱은 쇼핑과 적립, 그리고 ‘마또’라는 리텐션 게임 기능이 하나의 흐름 안에서 자연스럽게 연결되도록 구성된 플랫폼입니다. 전체 디자인은 쉽고 직관적인 쇼핑 경험과 재미 요소를 통한 리텐션 강화의 균형에 중점을 두고 구성했습니다. 컬러와 3D 아이콘 시스템 또한 각 기능의 의미를 시각적으로 분명히 전달하도록 구조화했습니다. 메인 컬러는 돈, 금, 적립의 개념을 직관적으로 떠올리게 하는 색상으로, 앱의 핵심 기능인 캐시를 상징합니다. 이 색을 통해 사용자에게 현금처럼 쓸 수 있는 리워드가 있다는 신뢰와 친근함을 동시에 전달하고자 했습니다.`,
         },
-        { src: '/images/markettoo/pj-markettoo-5.gif', desc: false },
-        { src: '/images/markettoo/pj-markettoo-6.jpg', desc: false },
+        { src: '/images/markettoo/pj-markettoo-5.gif', },
+        { src: '/images/markettoo/pj-markettoo-6.jpg', },
         {
           src: '/images/markettoo/pj-markettoo-7.jpg',
           title: `주문`,
@@ -127,14 +127,14 @@ const projects = [
           title: `캐시모으기`,
           desc: `쇼핑 외에도 캐시를 얻을 수 있는 구조를 시각적으로 강조했습니다. 다양한 유입 루트를 명확히 보여주는 방식으로, 사용자 리텐션과 이벤트 전환을 동시에 유도합니다.`,
         },
-        { src: '/images/markettoo/pj-markettoo-9.jpg', desc: false },
+        { src: '/images/markettoo/pj-markettoo-9.jpg', },
         {
           src: '/images/markettoo/pj-markettoo-10.jpg',
           title: `마또`,
           desc: `‘마또’는 마켓또 앱의 가장 차별화된 기능으로, 단순 쇼핑 앱을 넘어 재미와 보상의 경험을 함께 제공하는 핵심 리텐션 장치입니다. UI는 복잡한 절차 없이, 게임처럼 직관적으로 참여할 수 있도록 구성했습니다. 전체 구조는 실제 복권 UX를 본떠 설계하되, 시각 피로도를 줄이고 사용자 집중도를 높일 수 있도록 숫자 선택–구매–당첨 확인의 흐름을 시각적으로 명확히 구분했습니다. 전반적으로는 복잡한 복권 구조를 단순한 카드 게임처럼 느껴지도록 만드는 시각 설계에 중점을 두었습니다. UX 기획과 UI 설계가 긴밀히 맞물린 대표 기능으로, 사용자는 별다른 학습 없이도 자연스럽게 참여 흐름을 이해하고, 선택의 재미와 보상의 기대감을 동시에 경험할 수 있도록 설계했습니다.`,
         },
-        { src: '/images/markettoo/pj-markettoo-11.jpg', desc: false },
-        { src: '/images/markettoo/pj-markettoo-12.jpg', desc: false },
+        { src: '/images/markettoo/pj-markettoo-11.jpg', },
+        { src: '/images/markettoo/pj-markettoo-12.jpg', },
       ],
       flex: [],
     },
@@ -154,10 +154,10 @@ const projects = [
     narrowSections: [0, 1, 2, 3], // solo 섹션 기준 인덱스
     images: {
       solo: [
-        { src: '/images/matthi/pj-matthi.jpg', dialogView: false },
-        { src: '/images/matthi/pj-matthi-1.jpg', dialogView: false },
-        { src: '/images/matthi/pj-matthi-2.jpg', dialogView: false },
-        { src: '/images/matthi/pj-matthi-3.jpg', dialogView: false },
+        { src: '/images/matthi/pj-matthi.jpg',  },
+        { src: '/images/matthi/pj-matthi-1.jpg',  },
+        { src: '/images/matthi/pj-matthi-2.jpg',  },
+        { src: '/images/matthi/pj-matthi-3.jpg',  },
       ],
       flex: [],
     },
@@ -177,10 +177,10 @@ const projects = [
     narrowSections: [0, 1, 2, 3], // solo 섹션 기준 인덱스
     images: {
       solo: [
-        { src: '/images/jl/pj-jl.jpg', dialogView: false },
-        { src: '/images/jl/pj-jl-1.jpg', dialogView: false },
-        { src: '/images/jl/pj-jl-2.jpg', dialogView: false },
-        { src: '/images/jl/pj-jl-3.jpg', dialogView: false },
+        { src: '/images/jl/pj-jl.jpg',},
+        { src: '/images/jl/pj-jl-1.jpg',},
+        { src: '/images/jl/pj-jl-2.jpg',},
+        { src: '/images/jl/pj-jl-3.jpg',},
       ],
       flex: [],
     },
@@ -197,31 +197,31 @@ const projects = [
     thum: '/images/innersence/pj-innersence.jpg',
     intro: `이너센스는 제이엘 코퍼레이션의 자사 도매 브랜드로 이너웨어를 중심으로 문구, 사무 용품을 판매하고 있습니다. 자사몰로 사용하고 있는 스토어팜의 배너와 제품 상세 페이지를 작업했습니다.`,
 
-    narrowSections: [0, 1, 2], // solo 섹션 기준 인덱스
     images: {
       solo: [
-        { src: '/images/innersence/pj-innersence.jpg', dialogView: false },
-        { src: '/images/innersence/pj-innersence-1.gif', dialogView: false },
-        { src: '/images/innersence/pj-innersence-2.gif', dialogView: false },
+        { src: '/images/innersence/pj-innersence.jpg', },
+        { src: '/images/innersence/pj-innersence-1.gif', },
+        { src: '/images/innersence/pj-innersence-2.gif', },
+        { src: '/images/innersence/pj-innersence-5.jpg', long:true},
       ],
-      flex: [
-        {
-          src: '/images/innersence/pj-innersence-detail-vivian.jpg',
-          dialogView: true,
-        },
-        {
-          src: '/images/innersence/pj-innersence-detail-aqua.jpg',
-          dialogView: true,
-        },
-        {
-          src: '/images/innersence/pj-innersence-detail-elm.jpg',
-          dialogView: true,
-        },
-        {
-          src: '/images/innersence/pj-innersence-detail-kakao.jpg',
-          dialogView: true,
-        },
-      ],
+      // flex: [
+      //   {
+      //     src: '/images/innersence/pj-innersence-detail-vivian.jpg',
+      //     dialogView: true,
+      //   },
+      //   {
+      //     src: '/images/innersence/pj-innersence-detail-aqua.jpg',
+      //     dialogView: true,
+      //   },
+      //   {
+      //     src: '/images/innersence/pj-innersence-detail-elm.jpg',
+      //     dialogView: true,
+      //   },
+      //   {
+      //     src: '/images/innersence/pj-innersence-detail-kakao.jpg',
+      //     dialogView: true,
+      //   },
+      // ],
     },
   },
   {
@@ -239,12 +239,12 @@ const projects = [
     narrowSections: [0, 1, 2, 3, 4, 5], // solo 섹션 기준 인덱스
     images: {
       solo: [
-        { src: '/images/tym/pj-tym.jpg', dialogView: false },
-        { src: '/images/tym/pj-tym-1.jpg', dialogView: false },
-        { src: '/images/tym/pj-tym-2.jpg', dialogView: false },
-        { src: '/images/tym/pj-tym-3.jpg', dialogView: false },
-        { src: '/images/tym/pj-tym-4.jpg', dialogView: false },
-        { src: '/images/tym/pj-tym-5.jpg', dialogView: false },
+        { src: '/images/tym/pj-tym.jpg', },
+        { src: '/images/tym/pj-tym-1.jpg', },
+        { src: '/images/tym/pj-tym-2.jpg', },
+        { src: '/images/tym/pj-tym-3.jpg', },
+        { src: '/images/tym/pj-tym-4.jpg', },
+        { src: '/images/tym/pj-tym-5.jpg', },
       ],
       flex: [],
     },
