@@ -3,7 +3,7 @@ name: FTP Deploy to Dothome
 on:
   push:
     branches:
-      - master  # 배포를 원하는 브랜치 이름
+      - new-detail-layout  # 배포를 원하는 브랜치 이름
 
 jobs:
   ftp-deploy:
