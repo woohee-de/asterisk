@@ -33,6 +33,19 @@ function Detail() {
             <dt className="detail-infos__dt">role</dt>
             <dd className="detail-infos__dd">{project.role}</dd>
           </dl>
+
+          {project.publishingNote && (
+            <div className="detail-publishing">
+              <a
+                href={project.publishingNote}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="detail-publishing__link"
+              >
+                퍼블리싱 노트
+              </a>
+            </div>
+          )}
         </div>
       </div>
 
@@ -76,31 +89,6 @@ function Detail() {
               </div>
             );
           })}
-
-          {project.images?.flex &&
-            [...Array(Math.ceil(project.images.flex.length / 2))].map(
-              (_, groupIdx) => {
-                const startIdx = groupIdx * 2;
-                const group = project.images.flex.slice(startIdx, startIdx + 2);
-                return (
-                  <div
-                    className="detail-sec detail-sec--flex"
-                    key={`flex-${groupIdx}`}
-                  >
-                    {group.map(({ src, dialogView }, idx) => (
-                      <img
-                        key={`flex-${startIdx + idx}`}
-                        className="detail__img"
-                        data-dialog={dialogView ? true : undefined}
-                        data-hover="true"
-                        src={src}
-                        alt={`${project.title} 이미지 ${startIdx + idx + 1}`}
-                      />
-                    ))}
-                  </div>
-                );
-              },
-            )}
 
           {/* <div className="detail-sec">
             <img

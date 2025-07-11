@@ -6,8 +6,9 @@ const projects = [
     period: '2025',
     client: 'Dooit telecom',
     tool: 'Figma',
-    role: 'UX/UI Design',
+    role: 'UX/UI Design & HTML/CSS Publishing',
     category: 'App design',
+    publishingNote: 'https://handsomely-reindeer-91a.notion.site/Pay1004-22d0dda49da0807da01beebf3a342a48?source=copy_link',
     thum: '/images/pay1004/pj-pay1004-1.jpg',
     intro: `페이천사는 지역 교육 연합체와 협업해 기획된 지역 기반 학원 결제 및 리워드 플랫폼입니다. 사용자는 이벤트를 통해 페이를 적립하고, 제휴 학원에서 수강료를 결제하거나 향후 쇼핑에도 사용할 수 있습니다. 프로젝트의 목표는 단순한 결제 수단을 넘어, 학습자–학원–교육 기관 간 연결 구조를 직관적으로 보여주고, 지역 상생의 가치를 전달하는 UX/UI를 구현하는 것이었습니다. “협약 학원에서만 사용하는 포인트 기반 화폐, 일반 지역화폐처럼 복잡하지 않게, 어디서 어떻게 쓸 수 있는지 명확하게 보여달라”는 요구를 바탕으로, 적립–보유–사용 흐름이 한눈에 보이는 UX, 콘텐츠 확장에 유연한 UI 시스템을 설계했습니다. 앱의 구조는 학습자, 지역 학원, 교육 연합체의 연결에 기반합니다. 메인 화면에서는 이 3자 간 상생 구조를 시각적으로 표현해 앱의 정체성과 가치를 효과적으로 전달하고자 했습니다.`,
 
