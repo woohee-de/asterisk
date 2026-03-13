@@ -1,13 +1,11 @@
 html, body {
   height: 100%;
-  overflow: hidden;
 }
 
 .app {
   display: flex;
   flex-direction: column;
-  height: 100dvh;
-  overflow-y: auto;
+  min-height: 100vh;
 }
 
 .header {
@@ -15,10 +13,11 @@ html, body {
 }
 
 .main {
-  flex: 1 0 auto;
-  overflow-x: hidden;
+  flex: 1;
 }
 
 .footer {
-  flex-shrink: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
