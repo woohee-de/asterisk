@@ -20,10 +20,10 @@ function App() {
 
   // 인트로
   useEffect(() => {
-    const hasVisited = localStorage.getItem('hasVisited');
+    const hasVisited = sessionStorage.getItem('hasVisited');
     if (!hasVisited && location.pathname === '/') {
       setShowIntro(true);
-      localStorage.setItem('hasVisited', 'true');
+      sessionStorage.setItem('hasVisited', 'true');
 
       const timer = setTimeout(() => {
         setShowIntro(false);
@@ -31,13 +31,15 @@ function App() {
 
       return () => clearTimeout(timer);
     }
-  }, [location]);
+  }, []);
 
   // 인트로 보여줄 때
-  if (showIntro) return <Intro />;
+  //if (showIntro) return <Intro />;
 
   return (
     <>
+      {showIntro && <Intro />}
+      
       {/* <CustomCursor /> */}
       <DialogViewer />
 
