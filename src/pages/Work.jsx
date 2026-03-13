@@ -48,7 +48,7 @@ function Work() {
                     className="project__link"
                     data-hover="true"
                   >
-                    <figure>
+                    <figure className="project__figure">
                       <img
                         src={project.thum}
                         alt={project.title}

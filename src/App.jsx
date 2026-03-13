@@ -40,7 +40,6 @@ function App() {
     <>
       {showIntro && <Intro />}
       
-      {/* <CustomCursor /> */}
       <DialogViewer />
 
       <AnimatePresence mode="wait" onExitComplete={() => {
