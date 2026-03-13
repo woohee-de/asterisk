@@ -7,13 +7,13 @@ import projects from '@/data/projects';
 function Work() {
   return (
     <>
-      <div className="main-section">
+      {/* <div className="main-section">
         <p className="slogun">
           Symbol is ASTERISK, means a designer
           <br />
           who knows What is IMPORTANT
         </p>
-      </div>
+      </div> */}
 
       <div className="main__layout">
         <MainSidebar>
@@ -49,11 +49,13 @@ function Work() {
                     data-hover="true"
                   >
                     <figure className="project__figure">
-                      <img
-                        src={project.thum}
-                        alt={project.title}
-                        className="project__thum"
-                      />
+                      <div className="project__thum">
+                        <img
+                          src={project.thum}
+                          alt={project.title}
+                          className="project__img"
+                        />  
+                      </div>
                       <figcaption className="project__title">
                         <h3 className="project__name">{project.title}</h3>
                         <span className="project__date">{project.year}</span>
