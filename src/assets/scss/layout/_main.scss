@@ -19,6 +19,7 @@
 .main-sidebar {
   grid-area: title;
   position: sticky;
+  top:178px; //header+padding-top
   height: fit-content;
 
   &__title {

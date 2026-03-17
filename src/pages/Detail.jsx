@@ -1,7 +1,4 @@
 import { useParams } from 'react-router-dom';
-import MainContainer from '@/components/layout/MainContainer';
-import MainSidebar from '@/components/layout/MainSidebar';
-
 import projects from '@/data/projects';
 
 function Detail() {
