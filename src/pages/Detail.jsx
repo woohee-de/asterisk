@@ -1,9 +1,14 @@
 import { useParams } from 'react-router-dom';
 import projects from '@/data/projects';
+import { useEffect } from 'react';
 
 function Detail() {
   const { id } = useParams();
   const project = projects.find((p) => String(p.id) === id);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="detail">
