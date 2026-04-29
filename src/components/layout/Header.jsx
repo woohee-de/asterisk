@@ -9,7 +9,7 @@ function Header() {
       <div className="header__logo">
         <h1 className="logo">
           <Link to="/" className="logo__link" data-hover="true">
-            <img src="/images/logo.svg" alt="로고" className="logo__img" />
+            <img src="/asterisk/images/logo.svg" alt="로고" className="logo__img" />
           </Link>
         </h1>
       </div>

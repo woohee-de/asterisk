@@ -95,7 +95,7 @@ function Detail() {
           {/* <div className="detail-sec">
             <img
               className="detail__img"
-              src="/images/markettoo-admin/pj-markettoo-admin-2.jpg"
+              src="/asterisk/images/markettoo-admin/pj-markettoo-admin-2.jpg"
               alt=""
             />
             <div className="detail-sec__desc inner-text">

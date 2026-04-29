@@ -4,7 +4,7 @@ import App from './App.jsx';
 import '@/assets/scss/index.scss';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/asterisk">
     <div className="app">
       <App />
     </div>
