@@ -1,0 +1,28 @@
+name: FTP Deploy to Dothome
+
+on:
+  push:
+    branches:
+      - new-detail-layout  # 배포를 원하는 브랜치 이름
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies and build
+        run: |
+          npm ci
+          npm run build
+
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /hosting/woohee/html/
+          local-dir: dist/
