@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import projects from '@/data/projects';
+import { img } from '@/utils/path';
 import { useEffect } from 'react';
 
 function Detail() {
@@ -95,7 +96,7 @@ function Detail() {
           {/* <div className="detail-sec">
             <img
               className="detail__img"
-              src="/asterisk/images/markettoo-admin/pj-markettoo-admin-2.jpg"
+              src={img('markettoo-admin/pj-markettoo-admin-2.jpg')}
               alt=""
             />
             <div className="detail-sec__desc inner-text">
